@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decodificador</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="short icon" href="Logo.png" type="imagem/x-icon">
+</head>
+<body>
+  <main class="main-container">
+  <header class="cabecalho">
+    <img src="logo.png" alt="logo">
+    <h1>Decodificador De Texto</h1>
+  </header>
+    
+    <div class="container-input">
+    <div class="input">
+    <textarea id="input-texto" placeholder="Digite o seu texto aqui"></textarea>
+      <p>Apenas letras minusculas e sem acento</p>
+    </div>
+    
+    <div id="output">
+        <img src="garotolupa.png" alt="logo">
+        <h2>Nenhuma mensagem encontrada</h2>
+        <span>Digite um texto que você deseja criptografar ou descriptografar.</span>
+</div>
+</div>
+
+<div class="buttons">
+  <div class="container-btn">
+    <button onclick="criptografar()" class="btn-criptografar">criptografar</button>
+    <button onclick="descriptografar()" class="btn-descriptografar">descriptografar</button>
+  </div>
+</div>
+
+</main>
+
+<footer class="rodape">
+  <div class="icons">
+    <a href="https://github.com/"><ion-icon name="logo-github"></ion-icon></a>
+    <a href="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon>
+    <a href="https://www.linkedin.com/in/luciana-moreira2/"><ion-icon name="logo-linkedin"></ion-icon></a>
+  </div>
+  <h3>Desenvolvido por Luciana Moreira</h3>
+</footer>
+    
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body> 
+</html>
